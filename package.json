@@ -1,0 +1,23 @@
+{
+  "name": "@xufa/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "eslint --fix . && node --test --experimental-test-coverage test/**/*.test.js"
+  },
+  "author": "jseijas@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@xufa/testing": "^1.0.0",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.13.0",
+    "prettier": "^3.4.1"
+  },
+  "dependencies": {
+    "acorn": "^8.14.0",
+    "pino": "^9.5.0"
+  }
+}
